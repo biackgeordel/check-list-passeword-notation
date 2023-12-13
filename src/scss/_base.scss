@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto:wght@400;700&display=swap");
+
+button {
+  margin: 1.5rem;
+}
+h1 {
+  padding: 2rem;
+}
+.btn {
+  color: white;
+  background: grey;
+  padding: 1.5rem;
+
+  border: none;
+  outline: 0;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  &-primary {
+    background: #3498db;
+  }
+}
+.control-btn {
+  width: 25%;
+  height: 15rem;
+  background: #ecf0f1;
+  border: 1px solid #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.box-panel {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.valid-btn {
+  background: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+  margin: 2rem 0;
+  padding: 0.5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+}
+.valid {
+  color: #3498db;
+}
+.btn-primary:disabled {
+  opacity: 0.5;
+  background: #7f8c8d;
+}
+.btn-primary {
+  opacity: 1;
+}
+.content-sondage {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  div {
+    font-size: 2rem;
+  }
+  .box-avis {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: var(--color-grey);
+    width: 15%;
+    padding: 1rem;
+    margin: 1rem;
+    &-text {
+      text-align: left;
+      flex-basis: 90%;
+      padding: 0 1.6rem;
+      text-wrap: nowrap;
+    }
+    &-icone {
+      flex-basis: 0 0 10%;
+      text-align: right;
+    }
+    &:hover {
+      background: var(--color-grey-lite);
+      transition: background 1s ease-in-out;
+    }
+  }
+  .color-valid {
+    color: #3498db;
+    transition: color 0.5s ease-in-out;
+  }
+  .background-100 {
+    width: 20%;
+    border-radius: 3rem;
+  }
+}
+.contain-notation {
+  width: 40%;
+  margin: 10rem auto;
+  border: 1px solid var(--color-grey-lite);
+  padding: 10rem 4rem;
+  border-radius: 2rem;
+  .box-element {
+    display: flex;
+    font-size: 4rem;
+    width: 100%;
+    justify-content: space-around;
+    .element {
+      cursor: pointer;
+    }
+  }
+}

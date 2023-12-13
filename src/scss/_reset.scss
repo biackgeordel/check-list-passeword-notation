@@ -1,0 +1,14 @@
+html,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  // font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  --color-grey: #7f8c8d;
+  --color-white: #ffffff;
+  --color-grey-lite: #f1f2f6;
+}
